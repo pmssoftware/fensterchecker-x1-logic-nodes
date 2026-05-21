@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllClosed" xml:space="preserve">
+    <value>Alle Fenster zu</value>
+  </data>
+  <data name="ClosedText" xml:space="preserve">
+    <value>Text wenn geschlossen</value>
+  </data>
+  <data name="CompactMaxLength" xml:space="preserve">
+    <value>Zeichen Angepasste Länge</value>
+  </data>
+  <data name="CompactText" xml:space="preserve">
+    <value>Angepasste Länge</value>
+  </data>
+  <data name="FullText" xml:space="preserve">
+    <value>Volle Länge</value>
+  </data>
+  <data name="OpenWindowCount" xml:space="preserve">
+    <value>Offene Fenster</value>
+  </data>
+  <data name="PushPrefix" xml:space="preserve">
+    <value>Push Präfix</value>
+  </data>
+  <data name="PushSuffix" xml:space="preserve">
+    <value>Push Suffix</value>
+  </data>
+  <data name="PushNotificationText" xml:space="preserve">
+    <value>Push mit Präfix/Suffix</value>
+  </data>
+  <data name="DefaultWindowName" xml:space="preserve">
+    <value>Fenster</value>
+  </data>
+  <data name="WindowName01" xml:space="preserve">
+    <value>Fenster 01 Name</value>
+  </data>
+  <data name="WindowState02" xml:space="preserve">
+    <value>Fenster 02 Status</value>
+  </data>
+  <data name="WindowName02" xml:space="preserve">
+    <value>Fenster 02 Name</value>
+  </data>
+  <data name="WindowState03" xml:space="preserve">
+    <value>Fenster 03 Status</value>
+  </data>
+  <data name="WindowName03" xml:space="preserve">
+    <value>Fenster 03 Name</value>
+  </data>
+  <data name="WindowState04" xml:space="preserve">
+    <value>Fenster 04 Status</value>
+  </data>
+  <data name="WindowName04" xml:space="preserve">
+    <value>Fenster 04 Name</value>
+  </data>
+  <data name="WindowState05" xml:space="preserve">
+    <value>Fenster 05 Status</value>
+  </data>
+  <data name="WindowName05" xml:space="preserve">
+    <value>Fenster 05 Name</value>
+  </data>
+  <data name="WindowState06" xml:space="preserve">
+    <value>Fenster 06 Status</value>
+  </data>
+  <data name="WindowName06" xml:space="preserve">
+    <value>Fenster 06 Name</value>
+  </data>
+  <data name="WindowState07" xml:space="preserve">
+    <value>Fenster 07 Status</value>
+  </data>
+  <data name="WindowName07" xml:space="preserve">
+    <value>Fenster 07 Name</value>
+  </data>
+  <data name="WindowState08" xml:space="preserve">
+    <value>Fenster 08 Status</value>
+  </data>
+  <data name="WindowName08" xml:space="preserve">
+    <value>Fenster 08 Name</value>
+  </data>
+  <data name="WindowState09" xml:space="preserve">
+    <value>Fenster 09 Status</value>
+  </data>
+  <data name="WindowName09" xml:space="preserve">
+    <value>Fenster 09 Name</value>
+  </data>
+  <data name="WindowState10" xml:space="preserve">
+    <value>Fenster 10 Status</value>
+  </data>
+  <data name="WindowName10" xml:space="preserve">
+    <value>Fenster 10 Name</value>
+  </data>
+  <data name="WindowState11" xml:space="preserve">
+    <value>Fenster 11 Status</value>
+  </data>
+  <data name="WindowName11" xml:space="preserve">
+    <value>Fenster 11 Name</value>
+  </data>
+  <data name="WindowState12" xml:space="preserve">
+    <value>Fenster 12 Status</value>
+  </data>
+  <data name="WindowName12" xml:space="preserve">
+    <value>Fenster 12 Name</value>
+  </data>
+  <data name="WindowState13" xml:space="preserve">
+    <value>Fenster 13 Status</value>
+  </data>
+  <data name="WindowName13" xml:space="preserve">
+    <value>Fenster 13 Name</value>
+  </data>
+  <data name="WindowState14" xml:space="preserve">
+    <value>Fenster 14 Status</value>
+  </data>
+  <data name="WindowName14" xml:space="preserve">
+    <value>Fenster 14 Name</value>
+  </data>
+  <data name="WindowState15" xml:space="preserve">
+    <value>Fenster 15 Status</value>
+  </data>
+  <data name="WindowName15" xml:space="preserve">
+    <value>Fenster 15 Name</value>
+  </data>
+  <data name="WindowState16" xml:space="preserve">
+    <value>Fenster 16 Status</value>
+  </data>
+  <data name="WindowName16" xml:space="preserve">
+    <value>Fenster 16 Name</value>
+  </data>
+  <data name="WindowState17" xml:space="preserve">
+    <value>Fenster 17 Status</value>
+  </data>
+  <data name="WindowName17" xml:space="preserve">
+    <value>Fenster 17 Name</value>
+  </data>
+  <data name="WindowState18" xml:space="preserve">
+    <value>Fenster 18 Status</value>
+  </data>
+  <data name="WindowName18" xml:space="preserve">
+    <value>Fenster 18 Name</value>
+  </data>
+  <data name="WindowState19" xml:space="preserve">
+    <value>Fenster 19 Status</value>
+  </data>
+  <data name="WindowName19" xml:space="preserve">
+    <value>Fenster 19 Name</value>
+  </data>
+  <data name="WindowState20" xml:space="preserve">
+    <value>Fenster 20 Status</value>
+  </data>
+  <data name="WindowName20" xml:space="preserve">
+    <value>Fenster 20 Name</value>
+  </data>
+  <data name="WindowState21" xml:space="preserve">
+    <value>Fenster 21 Status</value>
+  </data>
+  <data name="WindowState22" xml:space="preserve">
+    <value>Fenster 22 Status</value>
+  </data>
+  <data name="WindowName22" xml:space="preserve">
+    <value>Fenster 22 Name</value>
+  </data>
+  <data name="WindowState23" xml:space="preserve">
+    <value>Fenster 23 Status</value>
+  </data>
+  <data name="WindowName23" xml:space="preserve">
+    <value>Fenster 23 Name</value>
+  </data>
+  <data name="WindowState24" xml:space="preserve">
+    <value>Fenster 24 Status</value>
+  </data>
+  <data name="WindowName24" xml:space="preserve">
+    <value>Fenster 24 Name</value>
+  </data>
+  <data name="WindowState01" xml:space="preserve">
+    <value>Fenster 01 Status</value>
+  </data>
+</root>

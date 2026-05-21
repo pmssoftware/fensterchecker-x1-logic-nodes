@@ -1,0 +1,50 @@
+﻿{
+    "PackageFormatVersion": "1.0",
+
+    "Assembly": "pms_software_outlook_com.Logic.Fensterchecker.dll",
+
+    "PackageName": {
+        "en": "PMS: Fensterchecker",
+        "de": "PMS: Fensterchecker"
+    },
+
+    "DependentFiles": [
+        "pms_software_outlook_com.Logic.Fensterchecker.dll"
+    ],
+
+    "Version": "1.0.51",
+
+    "Author": "PMS",
+
+    "Copyright": "PMS",
+
+    "DeveloperId": "pms_software_outlook_com",
+
+    "License": "Free",
+
+    "PackageId": "67523251-FB3C-400A-9AA6-7E3FBA77943A",
+
+    "Nodes": [
+        {
+            "Type": "pms_software_outlook_com.Logic.Fensterchecker.Fensterchecker",
+
+            "Name": {
+                "en": "PMS: Fensterchecker",
+                "de": "PMS: Fensterchecker"
+            },
+
+            "IsConverter": false,
+
+            "Category": "Node",
+
+            "DefaultIcon": "icons/icon.png",
+
+            "HelpTooltip": {
+                "en": "Displays open windows and generates compact KNX display texts.",
+                "de": "Zeigt offene Fenster an und erzeugt kompakte KNX-Anzeigetexte."
+            },
+
+            "HelpFileReference": null
+        }
+    ]
+}
